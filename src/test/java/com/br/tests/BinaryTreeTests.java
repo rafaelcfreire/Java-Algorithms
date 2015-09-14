@@ -52,5 +52,4 @@ public class BinaryTreeTests {
     String expected = "-3|0|8|15|22|61|5|";
     Assert.assertEquals(expected, tree.postOrderReading(tree.getRoot()));
   }
-  
 }
