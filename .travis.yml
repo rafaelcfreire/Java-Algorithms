@@ -1,5 +1,6 @@
 language: java
-script:
-  - mvn clean install
-env:
-  - TEST_SUITE=units
+script: mvn test -f pom.xml
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+  - openjdk7
