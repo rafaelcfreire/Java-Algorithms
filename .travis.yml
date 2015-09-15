@@ -1,3 +1,5 @@
 language: java
 script:
   - mvn clean install
+env:
+  - TEST_SUITE=units
