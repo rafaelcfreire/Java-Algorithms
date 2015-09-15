@@ -1,7 +1,5 @@
 package com.br.tests;
-import static org.junit.Assert.*;
-
-import java.util.Arrays;
+import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.Test;
 
@@ -11,7 +9,7 @@ import com.br.implementations.sorting.SelectionSort;
 import com.br.interfaces.SortingAlgorithms;
 
 
-public class DefaultTests {
+public class DefaultTest {
 
   @Test
   public void naturalSorting() {

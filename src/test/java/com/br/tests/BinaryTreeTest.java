@@ -6,11 +6,11 @@ import org.junit.Test;
 import com.br.implementations.BinaryTree;
 import com.br.implementations.Node;
 
-public class BinaryTreeTests {
+public class BinaryTreeTest {
   
   BinaryTree tree;
   
-  public BinaryTreeTests() {
+  public BinaryTreeTest() {
     Node node1 = new Node(5);
     Node node2 = new Node(-3);
     Node node3 = new Node(8);
