@@ -3,8 +3,8 @@ import junit.framework.Assert;
 
 import org.junit.Test;
 
-import com.br.implementations.BinaryTree;
-import com.br.implementations.Node;
+import com.br.implementations.binaryTree.BinaryTree;
+import com.br.implementations.binaryTree.Node;
 
 public class BinaryTreeTest {
   

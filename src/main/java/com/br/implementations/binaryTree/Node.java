@@ -1,4 +1,4 @@
-package com.br.implementations;
+package com.br.implementations.binaryTree;
 
 public class Node {
   private int value;
