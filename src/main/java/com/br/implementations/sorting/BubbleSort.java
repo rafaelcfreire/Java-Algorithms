@@ -2,8 +2,15 @@ package com.br.implementations.sorting;
 
 import com.br.interfaces.SortingAlgorithms;
 
+/**
+ * @author rafaelcfreire
+ *
+ */
 public class BubbleSort implements SortingAlgorithms{
 
+  /* (non-Javadoc)
+   * @see com.br.interfaces.SortingAlgorithms#implementSorting(int[])
+   */
   public int[] implementSorting(int[] numbers) {
     boolean numbersSwitched;
     do {

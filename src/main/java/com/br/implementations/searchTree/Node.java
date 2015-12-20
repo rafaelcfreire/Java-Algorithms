@@ -3,17 +3,17 @@ package com.br.implementations.searchTree;
 public class Node {
   
   /**
-   * 
+   * The representational value of a node.
    */
   private int value;
   
   /**
-   * 
+   * Its left child
    */
   private Node left;
   
   /**
-   * 
+   * Its right child
    */
   private Node right;
 

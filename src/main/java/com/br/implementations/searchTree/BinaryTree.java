@@ -3,7 +3,15 @@ package com.br.implementations.searchTree;
 import com.br.interfaces.SearchTree;
 
 /**
+ * The binary tree data structure. This implementation relies on a root node and his respective children
+ * (left and right). The children are holded by the proper node instead in a list.
  * 
+ *              Average     Worst case
+ *      Space   O(n)        O(n)
+ *      Search  O(log n)    O(n)
+ *      Insert  O(log n)    O(n)
+ *      Delete  O(log n)    O(n)
+ *  
  * @author rafaelcfreire
  */
 public class BinaryTree implements SearchTree{
