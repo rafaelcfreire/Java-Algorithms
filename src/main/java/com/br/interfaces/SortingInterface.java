@@ -1,5 +1,5 @@
 package com.br.interfaces;
 
-public interface SortingAlgorithms {
+public interface SortingInterface {
   int[] implementSorting(int[] numbers);
 }

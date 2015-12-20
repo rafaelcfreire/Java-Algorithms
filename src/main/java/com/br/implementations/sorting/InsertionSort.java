@@ -1,8 +1,8 @@
 package com.br.implementations.sorting;
 
-import com.br.interfaces.SortingAlgorithms;
+import com.br.interfaces.SortingInterface;
 
-public class InsertionSort implements SortingAlgorithms{
+public class InsertionSort implements SortingInterface{
 
   public int[] implementSorting(int[] numbers) {
     int temp;

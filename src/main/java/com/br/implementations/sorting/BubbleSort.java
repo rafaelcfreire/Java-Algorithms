@@ -1,8 +1,8 @@
 package com.br.implementations.sorting;
 
-import com.br.interfaces.SortingAlgorithms;
+import com.br.interfaces.SortingInterface;
 
-public class BubbleSort implements SortingAlgorithms{
+public class BubbleSort implements SortingInterface{
 
   public int[] implementSorting(int[] numbers) {
     boolean numbersSwitched;
