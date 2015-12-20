@@ -44,6 +44,7 @@ public class ArrayBasedStack<E> implements Stack<E>{
       return null;
 
     E answer = data[index];
+    
     data[index] = null;
     
     return answer;
@@ -62,6 +63,5 @@ public class ArrayBasedStack<E> implements Stack<E>{
 
   public boolean isEmpty() {
     return index == -1;
-  }
-  
+  }  
 }

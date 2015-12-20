@@ -1,5 +1,9 @@
 package com.br.implementations.binaryTree;
 
+/**
+ * @author rafaelcfreire
+ *
+ */
 public class BinaryTree {
   private Node root;
   
@@ -7,7 +11,7 @@ public class BinaryTree {
     return this.root;
   }
   
-  public void insertNode(Node newNode){
+  public void insertNode(Node newNode) {
     if(root == null){
       root = newNode;
     } else {
@@ -29,14 +33,14 @@ public class BinaryTree {
     }
   }
   
-  public boolean search(int value){
+  public boolean search(int value) {
     if(getNode(root, value) == null){
       return false;
     }
     return true;
   }
   
-  private Node getNode(Node rootNode, int value){
+  private Node getNode(Node rootNode, int value) {
     if (rootNode == null)
       return null;
     if (rootNode.getValue() == value)
@@ -46,7 +50,7 @@ public class BinaryTree {
     return getNode(rootNode.getRight(), value);
   }
   
-  public String inOrderReading(Node rootNode){
+  public String inOrderReading(Node rootNode) {
     String finalValue = "";
     
     if(rootNode.getLeft() != null)
@@ -58,7 +62,7 @@ public class BinaryTree {
     return finalValue;
   }
   
-  public String preOrderReading(Node rootNode){
+  public String preOrderReading(Node rootNode) {
     String finalValue = "";
     
     finalValue += rootNode.getValue() + "|";
@@ -70,7 +74,7 @@ public class BinaryTree {
     return finalValue;
   }
   
-  public String postOrderReading(Node rootNode){
+  public String postOrderReading(Node rootNode) {
     String finalValue = "";
     
     if(rootNode.getLeft() != null)
