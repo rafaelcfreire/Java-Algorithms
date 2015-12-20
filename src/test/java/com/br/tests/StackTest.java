@@ -15,7 +15,15 @@ import com.br.interfaces.Stack;
  */
 public class StackTest {
 
+  /**
+   * 
+   */
   Stack<Integer> stack = new ArrayBasedStack<Integer>();
+  
+  
+  /**
+   * 
+   */
   Stack<Integer> linkedStack = new LinkedStack<Integer>();
 
   @Test

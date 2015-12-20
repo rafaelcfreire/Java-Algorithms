@@ -1,10 +1,16 @@
-package com.br.implementations.binaryTree;
+package com.br.implementations.searchTree;
+
+import com.br.interfaces.SearchTree;
 
 /**
+ * 
  * @author rafaelcfreire
- *
  */
-public class BinaryTree {
+public class BinaryTree implements SearchTree{
+  
+  /**
+   * 
+   */
   private Node root;
   
   public Node getRoot(){
@@ -20,7 +26,7 @@ public class BinaryTree {
   }
 
   private void insertNode(Node rootNode, Node newNode) {
-    if(newNode.getValue() < rootNode.getValue()){
+    if(newNode.getValue() < rootNode.getValue()) {
       if(rootNode.getLeft() == null)
         rootNode.setLeft(newNode);
       else
@@ -34,9 +40,9 @@ public class BinaryTree {
   }
   
   public boolean search(int value) {
-    if(getNode(root, value) == null){
+    if(getNode(root, value) == null)
       return false;
-    }
+
     return true;
   }
   

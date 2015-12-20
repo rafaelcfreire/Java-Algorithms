@@ -1,8 +1,20 @@
-package com.br.implementations.binaryTree;
+package com.br.implementations.searchTree;
 
 public class Node {
+  
+  /**
+   * 
+   */
   private int value;
+  
+  /**
+   * 
+   */
   private Node left;
+  
+  /**
+   * 
+   */
   private Node right;
 
   public Node(int value) {
@@ -12,18 +24,23 @@ public class Node {
   public int getValue() {
     return value;
   }
+  
   public void setValue(int value) {
     this.value = value;
   }
+  
   public Node getLeft() {
     return left;
   }
+
   public void setLeft(Node left) {
     this.left = left;
   }
+  
   public Node getRight() {
     return right;
   }
+  
   public void setRight(Node right) {
     this.right = right;
   }

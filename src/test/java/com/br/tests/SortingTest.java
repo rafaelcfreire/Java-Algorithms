@@ -6,16 +6,16 @@ import org.junit.Test;
 import com.br.implementations.sorting.BubbleSort;
 import com.br.implementations.sorting.InsertionSort;
 import com.br.implementations.sorting.SelectionSort;
-import com.br.interfaces.SortingInterface;
+import com.br.interfaces.SortingAlgorithms;
 
 
-public class DefaultTest {
+public class SortingTest {
 
   @Test
   public void naturalSorting() {
     final int[] initial = {-3, -5, 1, 7, 4, -2};
     final int[] expected = {-5, -3, -2, 1, 4, 7};
-    SortingInterface algo = new BubbleSort();
+    SortingAlgorithms algo = new BubbleSort();
     assertArrayEquals(expected, algo.implementSorting(initial));
   }
 
@@ -23,7 +23,7 @@ public class DefaultTest {
   public void selectionSortingTest() {
     final int[] initial = {-3, -5, 1, 7, 4, -2};
     final int[] expected = {-5, -3, -2, 1, 4, 7};
-    SortingInterface algo = new SelectionSort();
+    SortingAlgorithms algo = new SelectionSort();
     assertArrayEquals(expected, algo.implementSorting(initial));
   }
 
@@ -31,7 +31,7 @@ public class DefaultTest {
   public void insertionSortingTest() {
     final int[] initial = {-3, -5, 1, 7, 4, -2};
     final int[] expected = {-5, -3, -2, 1, 4, 7};
-    SortingInterface algo = new InsertionSort();
+    SortingAlgorithms algo = new InsertionSort();
     assertArrayEquals(expected, algo.implementSorting(initial));
   }
   
