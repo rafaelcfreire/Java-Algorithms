@@ -6,8 +6,9 @@ A Java project with implementation of popular data structures and algorithms. I 
 
 ## Sorting Algorithms
 * [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)
-* [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)
+* [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) - The insertion sort algorithm consists of insertions of items and comparisions with his previous items. Relatively close to BubbleSort, this algorithm has a worse case order of O(n2) taking into account that only one element is switched per iteration
 * [Selection Sort](https://en.wikipedia.org/wiki/Selection_sort)
+* [Merge Sort](https://www.youtube.com/watch?v=GCae1WNvnZM)
 
 ## Search Trees
 * [Binary Tree](https://en.wikipedia.org/wiki/Binary_tree) 
