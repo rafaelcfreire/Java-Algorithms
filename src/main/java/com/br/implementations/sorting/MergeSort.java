@@ -1,8 +1,5 @@
 package com.br.implementations.sorting;
 
-import java.util.Arrays;
-import java.util.List;
-
 import com.br.interfaces.SortingAlgorithms;
 
 /**
@@ -16,7 +13,10 @@ import com.br.interfaces.SortingAlgorithms;
  */
 public class MergeSort implements SortingAlgorithms {
 
-  public int[] implementSorting(int[] numbers) {
+  /* (non-Javadoc)
+ * @see com.br.interfaces.SortingAlgorithms#implementSorting(int[])
+ */
+public int[] implementSorting(int[] numbers) {
     if (numbers.length < 2) {
       return numbers;
     }
@@ -24,7 +24,12 @@ public class MergeSort implements SortingAlgorithms {
     return null;
   }
 
-  private static int[] merge(final int[] leftArray, final int[] rightArray) {
+  /**
+ * @param leftArray
+ * @param rightArray
+ * @return
+ */
+private static int[] merge(final int[] leftArray, final int[] rightArray) {
     final int[] merged = new int[leftArray.length + rightArray.length];
     
     return merged;

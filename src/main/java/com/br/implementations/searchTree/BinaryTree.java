@@ -15,16 +15,16 @@ import com.br.interfaces.SearchTree;
  * @author rafaelcfreire
  */
 public class BinaryTree implements SearchTree{
-  
+
   /**
    * 
    */
   private Node root;
-  
+
   public Node getRoot(){
     return this.root;
   }
-  
+
   public void insertNode(Node newNode) {
     if(root == null){
       root = newNode;
@@ -88,6 +88,9 @@ public class BinaryTree implements SearchTree{
     return finalValue;
   }
   
+  /* (non-Javadoc)
+ * @see com.br.interfaces.SearchTree#postOrderReading(com.br.implementations.searchTree.Node)
+ */
   public String postOrderReading(Node rootNode) {
     String finalValue = "";
     
